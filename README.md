@@ -3,13 +3,14 @@
 
 
 <h2>Description</h2>
-This project outlines how to provision Virtual Environment using vagrant.<br />
+This project outlines the step-by-step process to provision Virtual Environment using vagrant.<br />
 
 
 <h2>Languages and Utilities Used</h2>
 
 - <b>BashShell</b> 
 - <b>Vagrant</b>
+- <b>VirtualBox</b>
 
 <h2>Environments Used </h2>
 
