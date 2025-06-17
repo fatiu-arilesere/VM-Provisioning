@@ -21,7 +21,7 @@ This project outlines how to provision Virtual Environment using vagrant.<br />
 Launch the vagrantfile: <br/>
 After the installation of the VirtualBox and Vagrant on my system, I proceeded with the setup of the development environment. I created a directory "vagrant_project" and created a file "Vagrantfile".
  
-<img src="https://github.com/user-attachments/assets/2f147c72-7723-4522-a6bf-ce63407a08e1" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/KRCymP5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Inside the Vagrantfile:  <br/>
