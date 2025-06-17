@@ -19,19 +19,30 @@ This project outlines how to provision Virtual Environment using vagrant.<br />
 
 <p align="center">
 Launch the vagrantfile: <br/>
+After the installation of the VirtualBox and Vagrant on my system, I proceeded with the setup of the development environment. I created a directory "vagrant_project" and created a file "Vagrantfile".
+ 
 <img src="https://github.com/user-attachments/assets/2f147c72-7723-4522-a6bf-ce63407a08e1" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Inside the Vagrantfile:  <br/>
+I wrote the following lines of code into vagrantfile
+Vagrant.configure("2") do |config|
+config.vm.box = "base"
+config.vm.box = "kalilinux/rolling"
+
+<img src="https://i.imgur.com/xZWOOQR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Using vagrant up to provision the VM: <br/>
+After the inputting the above following lines. of code, I save and run the configuration file for creating a vagrant machine
+
+<img src="https://i.imgur.com/qSeHTh4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+connecting to to the VM via ssh:  <br/>
+I try to connect to the Vagrant VM using ssh. "vagrant ssh"
+
+<img src="https://i.imgur.com/WIdiOqf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Wait for process to complete (may take some time):  <br/>
